@@ -13,13 +13,16 @@ name=st.text_input("ENTER YOUR NAME:")
 if st.button("Submit"):
     st.balloons()
     if name =="Patience" or name == "Pashy" or name =="P":
+        st.image("birthday_blessing.png")
         st.info(verse)
         st.success(f"Happy Birthday to {name}, be blessed")
 
     elif name == "James" or name == "Jamo":
+     st.image("birthday_blessing.png")
      st.info(verse)
      st.success(f"happy birthday to {name}, be blessed")
     elif name == "JB" or name == "Hope" or name == "Anita":
+     st.image("blessings.png")
      st.info(verse)
      st.success(f"{name},be blessed")
     elif name == "BONES" or "BONELLY":
